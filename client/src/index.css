@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.linkk {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 35px;
+    margin: 0px 20px;
+    font-weight: 500;
+}
+.applogo{
+  width: 40px;
+
+}
+.homeline1 {
+  text-align: right !important;
+  background-color: #d7b340;
+  border: white;
+  font-weight: 600;
+  margin: 20px 0px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.addnew-btn {
+  background-color: rgb(209, 38, 38) !important;
+  border: unset !important;
+  border-radius: unset !important ;
+  font-weight: 500 !important;
+}
+
+.todo-title {
+  color: #00e2e2;
+}
+
+.card-home .card-title {
+  color: #bb0912;
+  height: 50px;
+}
+
+.alert-success{
+  padding: unset !important;
+  text-align: center !important;
+}
+
+.container .btn-close {
+  padding: 0.25rem .50rem !important;
+}
+
+.modal-dialog .modal-content{
+  border: #f5c2c7 solid 3px;
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+.modal-backdrop.show {
+  opacity: unset !important;
+}
+
+.modal-backdrop {
+  background-color: unset !important;
+}
